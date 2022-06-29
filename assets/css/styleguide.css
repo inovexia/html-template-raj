@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*--------------reset css--------------------*/
+@media (min-width: 0) {
+
+    html,
+    body,
+    div,
+    span,
+    applet,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    b,
+    u,
+    i,
+    center,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    embed,
+    figure,
+    figcaption,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    output,
+    ruby,
+    section,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    /* HTML5 display-role reset for older browsers */
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    section {
+        display: block;
+    }
+
+    body {
+        line-height: 1;
+        font-family: 'Inter', sans-serif;
+    }
+
+    ol,
+    ul {
+        list-style: none;
+    }
+
+    blockquote,
+    q {
+        quotes: none;
+    }
+
+    blockquote:before,
+    blockquote:after,
+    q:before,
+    q:after {
+        content: '';
+        content: none;
+    }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size:36px;
+        line-height:40px;
+        color: #000000;
+    }
+
+    h2 {
+        font-weight: 700;
+        font-size:30px;
+        line-height: 36px;
+        color: #030505;
+    }
+
+    h3 {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 30px;
+        color: #030505;
+    }
+
+    h4 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height:20px;
+        color: #000000;
+    }
+
+    h5 {
+        font-weight: 600;
+        font-size: 14px;
+        line-height:18px;
+        color: #000000;
+    }
+
+    h6 {
+        font-weight: 600;
+        font-size: 12px;
+        line-height:16px;
+        color: #000000;
+    }
+
+    p,
+    span {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #737373;
+    }
+
+    strong {
+        font-weight: 600;
+    }
+
+
+    form input,
+    form textarea {
+        background: #ccc;
+        border: 1px solid #ccc;
+        font-weight: 400;
+        font-size: 14px;
+        padding: 7px 15px;
+        line-height: 20px;
+    }
+
+    form label {
+        font-weight: 600;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .button{
+        font-size: 14px;
+        line-height: 18px;
+        padding: 10px 40px;
+        font-weight: 600;
+        border-radius: 80px;
+        display: inline-block;
+    }
+
+    .primary-button {
+        background-color:#0B0B0B; /* For browsers that do not support gradients */
+        background-image: linear-gradient(to right,#0B0B0B ,#292524);
+        color: #fff;
+        border: 1px solid #000;
+        transition: all 0.3s;
+    }
+
+    .primary-button:hover {
+        background: #fff;
+        color: #0B0B0B;
+        border: 1px solid #0B0B0B;
+    }
+    .secondary-button{
+        background-color:#fff;
+        color: #000000;
+        font-weight: 600;
+        border: 1px solid #0B0B0B;
+        transition: all 0.3s;
+    }
+    .secondary-button:hover{
+        background-color:#0B0B0B; /* For browsers that do not support gradients */
+        background-image: linear-gradient(to right,#0B0B0B ,#292524);
+        color: #fff;
+        border: 1px solid #000;
+    }
+
+    a {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #0B0B0B;
+        outline: none;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #0B0B0B;
+    }
+    .align-items-center{
+        align-items: center;
+    }
+    
+}
+@media (min-width:768px){
+   
+}
+
+@media (min-width: 992px) {
+    
+    h1{
+        font-size: 64px;
+        line-height: 77.45px;
+
+    }
+    h2{
+        font-size: 48px;
+        line-height: 58px;
+    }
+    h3{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    h4{
+        font-size:18px;
+        line-height: 22px;
+    }
+    p,span{
+        font-size: 16px;
+        line-height:24px;
+    }
+    .button{
+        font-size: 16px;
+        line-height: 20px;
+        padding: 16px 48px;
+    }
+    a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media (min-width:1200px) {}
+
+@media (min-width: 1440px) {}
+
+@media (min-width: 1680px) {}
+
+@media (min-width:1920px) {}
